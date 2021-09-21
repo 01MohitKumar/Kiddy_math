@@ -21,13 +21,14 @@
 
 .header ul li a {
   text-decoration: none;
-  cursor: pointer;
-  padding: 7px 15px;
+  padding: 6px 15px;
   border-radius: 25px;
+  color: #042b5f;
   transition: 0.3s ease;
 }
 
-a:hover {
+.header ul li a:hover,
+.header ul li a:active {
   background: #042b5f;
   color: #e0e9f5;
 }
