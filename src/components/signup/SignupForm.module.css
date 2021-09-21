@@ -1,0 +1,13 @@
+.span{
+    font-size: 12px;
+    display: block;
+}
+
+.input{
+    width: 48%;
+}
+
+.nameContainer{
+ display: flex;
+ justify-content: space-between;
+}

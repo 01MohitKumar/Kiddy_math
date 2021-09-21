@@ -1,0 +1,14 @@
+.input{
+    width:100%;
+    display: block;
+    padding: 8px 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 25px;
+    background-color: #e0e9f5;
+    font-family: inherit;
+}
+
+.input:focus{
+    outline: none;
+}

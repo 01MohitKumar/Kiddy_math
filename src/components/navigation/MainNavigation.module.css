@@ -1,0 +1,35 @@
+.header {
+  margin: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.header ul {
+  display: flex;
+}
+
+.header ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.header ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 7px 15px;
+  border-radius: 25px;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  background: #042b5f;
+  color: #e0e9f5;
+}
+
+/* blue #042b5f  white #e0e9f5 */
