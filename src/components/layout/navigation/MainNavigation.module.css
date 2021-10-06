@@ -1,5 +1,4 @@
 .header {
-  margin: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,15 +10,15 @@
 
 .header ul {
   display: flex;
+  list-style: none;
+  align-items: baseline;
 }
 
 .header ul li {
-  list-style: none;
-  display: inline-block;
   margin-left: 20px;
 }
 
-.header ul li a {
+.header a {
   text-decoration: none;
   padding: 6px 15px;
   border-radius: 25px;
@@ -28,9 +27,10 @@
 }
 
 .header ul li a:hover,
-.header ul li a:active {
+.header ul li a.active {
   background: #042b5f;
   color: #e0e9f5;
 }
+
 
 /* blue #042b5f  white #e0e9f5 */

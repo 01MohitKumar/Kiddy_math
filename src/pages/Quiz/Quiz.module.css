@@ -1,0 +1,42 @@
+.flexContainer {
+  display: flex;
+}
+
+.flexChild {
+  flex: 1;
+}
+
+.rightContainer {
+  display: flex;
+  background-color: #042b5f;
+  border-radius: 4px;
+  box-shadow: 0px 10px 42px 0px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); */
+  padding: 1rem;
+  height: min-content;
+  width: 25rem;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.rightContainer .quizText {
+  color: #e0e9f5;
+  font-weight: unset;
+}
+
+.rightContainer .choice,
+.resetBtn {
+  background-color: #e0e9f5;
+  color: #042b5f;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.resetBtn{
+  height: min-content;
+  margin: auto;
+}
+
+.resetBtn:hover{
+  background-color: #e0e9f5;
+}

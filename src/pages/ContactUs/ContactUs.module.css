@@ -6,20 +6,5 @@
   flex: 1;
 }
 
-.imageContainer {
-  height: 70vh;
-}
 
-.image {
-  height: 100%;
-  width: 100%;
-}
 
-.contactContainer {
-  margin-top: 80px;
-  width: 60%;
-}
-
-.input {
-  background-color: #fff !important;
-}

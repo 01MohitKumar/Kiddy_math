@@ -1,6 +1,27 @@
+.flexContainer {
+  display: flex;
+}
 
+.flexChild {
+  flex: 1;
+}
 
+.nameContainer {
+  display: flex;
+  justify-content: space-between;
+}
 
+.errorText {
+  color: #b40e0e;
+}
 
+.invalid Input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+.invalid Input:focus {
+  border-color: #ff8800;
+  background-color: #fbe8d2;
+}
 
 /* blue #042b5f  white #e0e9f5 */
